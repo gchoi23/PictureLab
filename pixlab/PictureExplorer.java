@@ -771,6 +771,7 @@ public class PictureExplorer implements MouseMotionListener, ActionListener, Mou
         return colValue;
     }
     
+    
     /**
      * Method to get the previous component for focus
      */
@@ -800,7 +801,7 @@ public class PictureExplorer implements MouseMotionListener, ActionListener, Mou
    */
   public static void main( String args[])
   {
-    Picture pix = new Picture("beach.jpg");
+    Picture pix = new Picture("caterpillar.jpg");
     pix.explore();
   }
   

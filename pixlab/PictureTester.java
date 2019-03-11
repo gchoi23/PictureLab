@@ -52,9 +52,7 @@ public class PictureTester
   }
   public static void testKeepOnlyBlue()
   {
-      Picture beach = new Picture("beach.jpg");
-      beach.testKeepOnlyBlue();
-      beach.explore();
+      
     }
   
   /** Main method for testing.  Every class can have a main
@@ -68,10 +66,10 @@ public class PictureTester
     testKeepOnlyBlue();
     //testKeepOnlyRed();
     //testKeepOnlyGreen();
-    testNegate();
-    testGrayscale();
+    //testNegate();
+    //testGrayscale();
     //testFixUnderwater();
-    //testMirrorVertical();
+    testMirrorVertical();
     //testMirrorTemple();
     //testMirrorArms();
     //testMirrorGull();
