@@ -25,7 +25,14 @@ public class PictureTester
     caterpillar.mirrorVertical();
     caterpillar.explore();
   }
-  
+  public static void testMirrorDiagonal()
+  {
+      Picture caterpillar = new Picture("beach.jpg");
+      caterpillar.explore();
+      caterpillar.mirrorDiagonal();
+      caterpillar.explore();
+    }
+      
   /** Method to test mirrorTemple */
   public static void testMirrorTemple()
   {
@@ -70,6 +77,7 @@ public class PictureTester
     //testGrayscale();
     //testFixUnderwater();
     testMirrorVertical();
+    testMirrorDiagonal();
     //testMirrorTemple();
     //testMirrorArms();
     //testMirrorGull();
