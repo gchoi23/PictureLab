@@ -68,7 +68,14 @@ public class PictureTester
      snowman.mirrorArms();
      snowman.explore();
     }
-  
+ public static void testCopy()
+ {
+     Picture ocean = new Picture("beach.jpg");
+     Picture daddy = new Picture("snowman.jpg");
+     ocean.copy(daddy, 10,10,60,160,180,230);
+     ocean.explore();
+    }  
+     
   /** Main method for testing.  Every class can have a main
     * method in Java */
   public static void main(String[] args)
@@ -90,7 +97,7 @@ public class PictureTester
     //testMirrorGull();
     //testMirrorDiagonal();
     //testCollage();
-    //testCopy();
+    testCopy();
     //testEdgeDetection();
     //testEdgeDetection2();
     //testChromakey();
